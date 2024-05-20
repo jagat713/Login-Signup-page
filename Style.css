@@ -31,12 +31,22 @@ div {
     height: 35px;
     border-radius: 15px;
     border: 1px solid black;
+    transition: background-color 1s;
+}
+#loginButton:hover
+{
+    background-color: rgb(179, 197, 197);
 }
 #signupButton {
     width: calc(100% - 20px);
     height: 35px;
     border-radius: 15px;
     border: 1px solid black;
+    transition: background-color 1s;
+}
+#signupButton:hover
+{
+    background-color: rgb(179, 197, 197);
 }
 a{
     text-decoration: none;
